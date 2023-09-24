@@ -1,5 +1,8 @@
 #Kaezyen.gethub.io
 
+This folder and all files assosicated with WEB110 is legacy and no-longer maintained.
+This should only be used for reference.
+
 School: Harper College
 Name: Jacob Knott
 
