@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Assignment 4 - Jacob Knott</title>
+  </head>
+
+  <body>
+    <h1> Session 1 - Networking</h1>
+        <h2> Activity 2 - Review IP Address settings for your local network</h2>
+        <p> The first thing I did was open CMD and type ipconfig and I got my Ethernet adapter from my motherboard which tells me my
+            link-local IPv6 address, my IPv4 Address, Subnet Mask and Default Gateway. It also shows me tunnel adapter teredo tunneling pseudo-interface 
+            which after some research says it allows for computers that are behind a NAT firewall and without a native IPv6 address to be able to access 
+            IPv6 resources using the UDP protocol, UDP or User Datagram Protocol which is a communication protocol mainly used for time-sensitive transmissions like
+            video playback or DNS look ups (Things that need to be completed quickly, we dont want a video stuttering while we are watching it or the machine to take
+            forever to find what google.com is)
+            <br>
+            <br>
+            Next I did ipconfig /all which gives even more information about my adapters as well as my host name, node type, IP routing and WINS proxy.
+            <br>
+            <br>
+            Next was releasing and renewing my IP address, which is something that can become pretty important if you have alot of systems running on one network
+            one time I had an issue where my computer would just not connect to the internet no matter what I did but everything else was able to connect, one way
+            I found online to fix it was to renew my IP address to the server which then fixed all my issues, what can happen sometimes is if two machines get the same IP
+            from the DHCP server one of the machines will not be able to connect, so renewing the IP lease or releasing it on another machine will fix this issue.\
+            <br>
+            <br>
+            Next we learned how to Display and clear the DNS, firstly we learned how to add new hosts to the hosts file on Windows and be able to ping it, pinging the
+            google DNS I had a average of 17ms between packets being sent and getting a confirmation. After that I flushed the DNS which can solve many issues and This
+            is another way I used before to fix connectivity issues, My DNS was messing up one time where I was not able to access any websites since I was trying to use
+            their domain name rather than their ip address, after researching why this works a little bit I found that sometimes when a website changes servers their old 
+            IP is still linked to the domain in your cache which clearing will update it to the new IP connected to the domain.
+        </p>
+        <h2> Activity 7 - Research, Identify and describe the necessary components required to set up a home network for yourself</h2>
+        <p> There are a few things required to set up your own network at home such as 
+            <br>
+            <ul>
+                <li> Modem </li>
+                <li> Router </li>
+                <li> Switch* </li>
+                <li> Access Points* </li>
+            </ul> 
+            The items with a * are optional and not required.
+            <br>
+            A modem is used to convert the digital signals that you receive from your ISP to analog signals that your computer can take in and understand. It is
+            typically connected to the internet using a coax cable but today we are starting to move forward with internet and may connect using fiber optic cables,
+            or even wireless in somecases such as Starlink.
+            <br>
+            <br>
+            A router is used to "route" the internet through your house and to switches that may be set up or additional wifi access points throughout the house. I suppose
+            if you are using only 1 device on the internet then you could connect that device straight into the modem but most of the time you have multiple devices and you
+            want to run it through the router which will allow you to have more wired connections as well as have wireless connections throughout the house (At least the
+            devices that can reach the wireless range of the router)
+            <br>
+            <br>
+            Next a good thing to have is a switch, which is typically connected to the router and allows for multiple devices to be connected at once, typically used 
+            in a business setting or in smart homes. These are useful in businesses since on a switch you are able to create sub-networks or subnets which will make it
+            easier to troubleshoot or debug issues in your network, and it allows for easier communication between the different subnets.
+            <br>
+            <br>
+            Next many people will not need these but wireless access points scattered throughout your house will make sure you have a solid connection at all times to
+            the wireless network. These little devices are sometimes hard-wired into a switch or the router and act as a new point for you to connect to. The system I had
+            in my house would disconnect you from the access point that has little strength and connect you to one that you have much better strength too.
+            <br>
+            <br>
+            After all of that you just need ethernet wires to run to the different devices throughout your house and then you will be all connected to the internet.
+        </p>
+    <h1> Summary/h1>
+        <p> Working through these activities I found areas that I will be using in the future, I have friends that are in cybersecurity with Ford and working on
+            this assignment I was asking them questions about different things that I was using and the hosts file is pretty important in their line of work sincet
+            they want to make sure they are only connecting to one server when they are working on their things for Ford. The 1st activity I found very useful since
+            it teaches you ways of being able to fix internet issues that you may never think of since mostly you are just told to unplug and replug in your router, or
+            to restart your computer which alot of times doesn't work. When we are on the phone with our ISPs I have a feeling flushing DNS or renewing a IP certificate
+            is a way that they fix things sincen in the past I had to use them before to fix connectivity issues. I forsee myself using almost everything I learned in <thead>
+            networking section to do my job in the future doing cybersecurity.
+            </thead>
+        </p>>
+  </body>

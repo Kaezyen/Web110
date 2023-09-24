@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color: lightsteelblue;
+    color: black;
+    text-align: left;
+    font-size: 30px;
+}
+
+h2 {
+    background-color: lightsteelblue;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+h3{
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+
+p{
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+
+}
+
+html{
+    background-image: url("BackgroundImage.jpg");
+    background-repeat: no-repeat;
+}
+
+li{
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px
+
+}
+
+image{
+    width: 100%;
+    text-align: center;
+    position: y = 500;
+    bottom: 0px;
+}
